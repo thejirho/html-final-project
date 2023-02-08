@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jirho">
+    <meta name="description" content="Exercise for this Course">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Little Taco Shop</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="#lts">About <abbr title="The Little Taco Shop"></abbr>LTS</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="images/tacos_and_drink_400x267.png"
+            alt="Tacos and a Drink"
+            title="Tacos and a Drink"
+            width="400"
+            height="267">
+            <figcaption>Tacos and a Drink</figcaption>
+        </figure>
+    </header> 
+    <hr>
+    <main>
+        <!-- our content-->
+        <article id="lts">
+            <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+            <p>
+                <abbr title="Little Taco Shop">LTS</abbr> was founded in<time datetime="2022"> 2022</time>. Our shop was built from a <strong>love of tacos</strong> 🌮🌮🌮. We hope our shop add a unique and interesting place to our little town
+            </p> 
+            <aside>
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary>When did tacos first appear in the United States?</summary>
+                    <p>
+                        The first tacos in the United States are believed to have appeared in the early 20th century, with the arrival of Mexican immigrants. However, the exact date is not known.
+                    </p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu">
+        <h2>Our Menu</h2>
+            <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tacos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="3" scope="rowgroup">Crunchy</th>
+                        <td>1</td>
+                        <td>&dollar;1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>&dollar;2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>&dollar;3.25</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3" scope="rowgroup">Soft</th>
+                        <td>1</td>
+                        <td>&dollar;2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>&dollar;3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>&dollar;4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Chips &amp; Salsa &dollar;2</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </article>     
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+</body>
+</html>
